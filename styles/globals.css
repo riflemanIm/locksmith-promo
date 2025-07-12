@@ -1,0 +1,24 @@
+/* В самом верху файла — подключение шрифта */
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@400;700&display=swap');
+
+/* Глобальные стили */
+body {
+  margin: 0;
+  font-family: 'Roboto Condensed', sans-serif;
+  background: #fff;
+  color: #333;
+}
+
+/* Ссылки */
+a {
+  color: #0070f3;
+  text-decoration: none;
+}
+a:hover {
+  color: #005bb5;
+}
+
+/* Бокс‐сайзинг для всех элементов */
+* {
+  box-sizing: border-box;
+}
