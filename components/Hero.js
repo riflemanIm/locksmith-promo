@@ -9,8 +9,12 @@ export default function Hero() {
           Аварийное вскрытие дверей, автомобилей, сейфов и гаражей с гарантией
           сохранности конструкции.
         </p>
-        <a href="#contact" className="btn">
-          Заказать
+        <a
+          href="tel:+79190204137"
+          aria-label="Профи по замкам — телефон"
+          className="btn"
+        >
+          Профи по замкам — 8 919 020-4137
         </a>
       </div>
       <style jsx>{`

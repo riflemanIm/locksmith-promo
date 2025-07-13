@@ -14,10 +14,17 @@ export default function Nav() {
               <img src="/logo.svg" alt="Профи по замкам" height={44} />
             </Link>
           </div>
-
           <div className="logo_text">
             <Link href="/" aria-label="Профи по замкам — главная">
-              Профи по замкам
+              Профи по замкам —
+            </Link>
+          </div>
+          <div className="logo_tel">
+            <Link
+              href="tel:+79190204137"
+              aria-label="Профи по замкам — телефон"
+            >
+              8 919 020-4137
             </Link>
           </div>
         </div>
@@ -74,9 +81,17 @@ export default function Nav() {
           margin-left: 0.5rem;
           font-size: 1.2rem;
           font-weight: 600;
-          color: #0070f3;
+          color: rgb(27, 38, 51);
           display: none;
         }
+
+        .logo_tel {
+          margin-left: 0.5rem;
+          font-size: 1.2rem;
+          font-weight: 600;
+          color: #0070f3;
+        }
+
         /* Показываем текст логотипа только на десктопе */
         @media (min-width: 768px) {
           .logo_text {

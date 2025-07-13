@@ -1,7 +1,7 @@
 // pages/mortise-door-components.js
 import Head from "next/head";
 import Nav from "../components/Nav";
-import Contact from "../components/Contact";
+
 export default function MortiseDoorComponents() {
   return (
     <>
@@ -38,7 +38,7 @@ export default function MortiseDoorComponents() {
           <li>Совместимость с любыми механизмами</li>
         </ul>
       </main>
-      <Contact />
+      {/* <Contact /> */}
       <style jsx>{`
         .service {
           padding: 4rem 1rem;

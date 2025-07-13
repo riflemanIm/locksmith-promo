@@ -1,7 +1,7 @@
 // pages/installation-replacement.js
 import Head from "next/head";
 import Nav from "../components/Nav";
-import Contact from "../components/Contact";
+
 export default function InstallationReplacement() {
   return (
     <>
@@ -39,7 +39,7 @@ export default function InstallationReplacement() {
           <li>Гарантия до 2 лет</li>
         </ul>
       </main>
-      <Contact />
+      {/* <Contact /> */}
       <style jsx>{`
         .service {
           padding: 4rem 1rem;

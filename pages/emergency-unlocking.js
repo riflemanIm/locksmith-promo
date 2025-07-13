@@ -1,7 +1,8 @@
 // pages/emergency-unlocking.js
 import Head from "next/head";
 import Nav from "../components/Nav";
-import Contact from "../components/Contact";
+
+import Image from "next/image";
 export default function EmergencyUnlocking() {
   return (
     <>
@@ -34,7 +35,7 @@ export default function EmergencyUnlocking() {
           <li>Опыт более 10 лет</li>
         </ul>
       </main>
-      <Contact />
+      {/* <Contact /> */}
       <style jsx>{`
         .service {
           padding: 4rem 1rem;
