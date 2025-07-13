@@ -21,10 +21,10 @@ export default function Nav() {
           </div>
           <div className="logo_tel">
             <Link
-              href="tel:+79190204137"
+              href="tel:+79157661536"
               aria-label="Профи по замкам — телефон"
             >
-              8 919 020-4137
+              8 915 766 15-36
             </Link>
           </div>
         </div>

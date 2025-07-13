@@ -60,10 +60,10 @@ export default function Home() {
               name: "Профи по замкам",
               description: description,
               url: siteUrl,
-              telephone: "+7XXXXXXXXXX",
+              telephone: "+79157661536",
               address: {
                 "@type": "PostalAddress",
-                addressLocality: "Ваш город",
+                addressLocality: "Moscow",
               },
               openingHoursSpecification: [
                 {
