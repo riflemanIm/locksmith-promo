@@ -2,7 +2,6 @@
 import Head from "next/head";
 import Nav from "../components/Nav";
 
-import Image from "next/image";
 export default function EmergencyUnlocking() {
   return (
     <>
