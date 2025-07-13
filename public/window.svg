@@ -1,6 +1,0 @@
-<!-- public/icons/emergency-unlocking.svg -->
-<svg width="64" height="64" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
-    <path fill="#0070f3" d="M20 28V20a12 12 0 0124 0h-4a8 8 0 00-16 0v8h20v28H20V28z" />
-    <rect x="20" y="28" width="24" height="28" rx="2" fill="#0070f3" />
-    <circle cx="32" cy="42" r="3" fill="#fff" />
-</svg>
