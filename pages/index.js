@@ -4,6 +4,7 @@ import Nav from "../components/Nav";
 import Hero from "../components/Hero";
 import Services from "../components/Services";
 import Prices from "../components/Prices";
+import PhotoAlbum from "../components/PhotoAlbum";
 
 export default function Home() {
   const siteUrl = "https://your-domain.com"; // замените на ваш URL
@@ -88,6 +89,7 @@ export default function Home() {
       <Nav />
       <Hero />
       <Services />
+      <PhotoAlbum />
       <Prices />
       {/* <Contact /> */}
     </>
