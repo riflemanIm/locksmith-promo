@@ -19,6 +19,7 @@ export default function InstallationReplacement() {
         </p>
 
         <img
+          loading="lazy"
           src="/images/installation-replacement.webp"
           alt="Установка и замена замков"
           style={{

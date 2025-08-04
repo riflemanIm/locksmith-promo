@@ -5,6 +5,9 @@ const nextConfig: NextConfig = {
   // Отключаем SSR: экспортируем только статику
   output: "export",
   trailingSlash: false,
+  images: {
+    unoptimized: true, // отключаем API оптимизации изображений
+  },
 };
 
 export default nextConfig;

@@ -20,6 +20,7 @@ export default function EmergencyUnlocking() {
           <h1>Аварийное вскрытие замков</h1>
         </p>
         <img
+          loading="lazy"
           src="/images/emergency-unlocking.jpg"
           alt="Аварийное вскрытие замков"
         />

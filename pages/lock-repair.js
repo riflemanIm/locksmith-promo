@@ -18,6 +18,7 @@ export default function LockRepair() {
           <h1>Ремонт замков</h1>
         </p>
         <img
+          loading="lazy"
           src="/images/lock-repair.webp"
           alt="Ремонт замков"
           style={{

@@ -18,6 +18,7 @@ export default function MortiseDoorComponents() {
           <h1>Врезка замков и дверных ручек</h1>
         </p>
         <img
+          loading="lazy"
           src="/images/mortise-door-components.jpg"
           alt="Врезка замков и дверных ручек"
           style={{

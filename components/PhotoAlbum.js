@@ -1,9 +1,9 @@
-// pages/photo-album.js
+// components/PhotoAlbum.js
 import { useState } from "react";
+import Image from "next/image";
 
 export default function PhotoAlbum() {
   const [fullscreenPhoto, setFullscreenPhoto] = useState(null);
-
   const photos = [
     {
       src: "/album/photo-1.jpg",
@@ -34,19 +34,33 @@ export default function PhotoAlbum() {
               }`}
               onClick={() => setFullscreenPhoto(photo.src)}
             >
-              <img src={photo.src} alt={photo.alt} />
+              <Image
+                src={photo.src}
+                alt={photo.alt}
+                fill
+                loading="lazy"
+                sizes="(max-width: 1024px) 100vw, 180px"
+                style={{ objectFit: "cover", borderRadius: "8px" }}
+              />
             </div>
           ))}
         </div>
       </section>
+
       {fullscreenPhoto && (
         <div className="fullscreen" onClick={() => setFullscreenPhoto(null)}>
-          <img
-            src={fullscreenPhoto}
-            alt="Фотоальбом выполненных работ по вскрытию, установке и ремонту замков"
-          />
+          <div className="fullscreen-inner">
+            <Image
+              loading="lazy"
+              src={fullscreenPhoto}
+              alt="Фотоальбом выполненных работ по вскрытию, установке и ремонту замков"
+              fill
+              style={{ objectFit: "contain", borderRadius: "8px" }}
+            />
+          </div>
         </div>
       )}
+
       <style jsx>{`
         h2 {
           text-align: center;
@@ -65,20 +79,11 @@ export default function PhotoAlbum() {
           grid-auto-rows: 180px;
           grid-auto-flow: dense;
           gap: 4px;
-          max-width: 1024px;
-          margin: 0 auto;
-          padding: 1rem;
         }
         .photo {
           position: relative;
           cursor: pointer;
           overflow: hidden;
-          border-radius: 8px;
-        }
-        .photo img {
-          width: 100%;
-          height: 100%;
-          object-fit: cover;
           border-radius: 8px;
         }
         .photo.wide {
@@ -100,10 +105,14 @@ export default function PhotoAlbum() {
           z-index: 100;
           cursor: pointer;
         }
-        .fullscreen img {
-          max-width: 95%;
-          max-height: 95%;
-          border-radius: 8px;
+        .fullscreen-inner {
+          position: relative;
+          width: 90vw;
+          height: 90vh;
+        }
+        .fullscreen-inner :global(.next-image-wrapper) {
+          position: absolute !important;
+          inset: 0;
         }
       `}</style>
     </>
