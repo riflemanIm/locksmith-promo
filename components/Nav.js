@@ -24,7 +24,7 @@ export default function Nav() {
               href="tel:+79157661536"
               aria-label="Профи по замкам — телефон"
             >
-              8 915 766 15-36
+              8 926 272 66-62
             </Link>
           </div>
         </div>

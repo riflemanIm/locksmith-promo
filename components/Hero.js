@@ -14,7 +14,7 @@ export default function Hero() {
           aria-label="Профи по замкам — телефон"
           className="btn"
         >
-          Профи по замкам — 8 915 766 15-36
+          Профи по замкам — 8 926 272 66-62
         </a>
       </div>
       <style jsx>{`
