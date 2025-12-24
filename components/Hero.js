@@ -10,7 +10,7 @@ export default function Hero() {
           сохранности конструкции.
         </p>
         <a
-          href="tel:+79157661536"
+          href="tel:+79262726662"
           aria-label="Профи по замкам — телефон"
           className="btn"
         >

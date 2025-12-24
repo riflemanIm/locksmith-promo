@@ -61,7 +61,7 @@ export default function Home() {
               name: "Профи по замкам",
               description: description,
               url: siteUrl,
-              telephone: "+79157661536",
+              telephone: "+79262726662",
               address: {
                 "@type": "PostalAddress",
                 addressLocality: "Moscow",
